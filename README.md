@@ -2,6 +2,28 @@
 
 This repository is meant to serve as a starting point for creating and maintaining your own [Vale-compatible](https://github.com/ValeLint/vale) style guide. It includes a (fairly) complete implementation of the [18F Content Guide](https://content-guide.18f.gov/), including example rules for all of Vale's [extension points](https://errata.ai/vale/styles/#extension-points) and a unit test suite using [Cucumber](https://cucumber.io/), [`yamllint`](https://github.com/adrienverge/yamllint), and [Travis CI](https://travis-ci.org/).
 
+## Dependencies
+
+### yamllint
+
+You can install `yamllint` through Homebrew:
+
+```
+$ brew install yamllint
+```
+
+### Cucumber
+
+To install Cucumber on OSX, run:
+
+```
+gem update --system
+gem install rspec --no-ri --no-rdoc
+gem install watir-webdriver --no-ri --no-rdoc
+gem install cucumber --no-ri --no-rdoc
+gem install aruba
+```
+
 ## Repository Structure
 
 <dl>
@@ -29,5 +51,9 @@ This repository is meant to serve as a starting point for creating and maintaini
 | [`conditional`](https://errata-ai.github.io/vale/styles/#conditional)  | [`UnexpandedAcronyms.yml`](https://github.com/ValeLint/vale-boilerplate/blob/master/src/18F/UnexpandedAcronyms.yml) |
 | [`spelling`](https://errata-ai.github.io/vale/styles/#spelling)  | [`Spellcheck.yml`](https://github.com/ValeLint/vale/blob/master/styles/demo/Spellcheck.yml) |
 
+## Test Process
 
+To check the style guide, run the following commands:
 
+* `yamllint src`
+* `cucumber`
