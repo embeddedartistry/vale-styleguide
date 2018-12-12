@@ -7,34 +7,60 @@ first: '\b([A-Z]{3,5})\b'
 second: '(?:\b[A-Z][a-z]+['']? )+\(([A-Z]{3,5})\)'
 exceptions:
   - ABC
+  - ABI
+  - ACM
   - ADD
   - ADHD
   - AIDS
+  - AKA
   - APA
   - API
+  - ARM
+  - ASAP
+  - AVR
+  - CAN
   - CBS
+  - CEO
   - CIA
+  - CLI
+  - CMSIS
+  - CPU
+  - CRC
   - CSI
   - CSS
   - CST
+  - DMA
+  - DRAM
+  - DSP
   - ESPN
   - EST
   - FAQ
   - FBI
-  - FBI
+  - FILE
   - FIXME
+  - GCC
   - GNU
   - GOV
+  - GPS
+  - HAL
   - HIV
   - HR
   - HTML
   - HTTP
   - HTTPS
+  - IDE
+  - IEEE
+  - IRQ
+  - I2C
   - JSON
   - LAN
+  - LED
+  - MIPI
+  - MIPS
   - MIT
   - MLA
   - MLB
+  - MMU
   - MTV
   - NAACP
   - NAACP
@@ -48,17 +74,36 @@ exceptions:
   - NCAAF
   - NFL
   - NHL
+  - NOT
   - NOTE
+  - 'NULL'
+  - OLED
+  - OTA
+  - PCB
   - PDF
   - PGA
+  - PIC
   - PPV
   - PST
+  - RAM
+  - ROM
+  - RPC
+  - RTOS
+  - SDK
   - SGML
+  - SPI
+  - SRAM
   - SSN
+  - STL
+  - TBD
+  - TDD
   - TNT
   - TODO
+  - UART
+  - UML
   - URL
   - USA
+  - USB
   - USSR
   - XML
   - XXX
