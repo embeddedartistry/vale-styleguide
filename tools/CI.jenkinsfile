@@ -15,9 +15,7 @@ pipeline
       steps
       {
         sh 'yamllint src'
-        sh 'cucumber --exclude documentation* --exclude blog*'
-        sh 'cucumber --exclude documentation* --exclude 18F*'
-        sh 'cucumber --exclude 18F* --exclude blog*'
+        sh 'cucumber'
       }
     }
   }

@@ -56,6 +56,4 @@ gem install aruba
 To check the style guide, run the following commands:
 
 * `yamllint src`
-* `cucumber --exclude documentation* --exclude blog*` to test 18F style
-* `cucumber --exclude 18F* --exclude blog*` to test documentation style
-* `cucumber --exclude documentation* --exclude 18F*` to test blog style
+* `cucumber'
