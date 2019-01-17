@@ -6,12 +6,10 @@ level: warning
 first: '\b([A-Z]{3,5})\b'
 second: '(?:\b[A-Z][a-z]+['']? )+\(([A-Z]{3,5})\)'
 exceptions:
-  - ABC
   - ABI
   - ACM
-  - ADD
-  - ADHD
-  - AIDS
+  - ADC
+  - ADR
   - AKA
   - APA
   - API
@@ -21,30 +19,27 @@ exceptions:
   - CAN
   - CBS
   - CEO
-  - CIA
   - CLI
   - CMSIS
   - CPU
   - CRC
-  - CSI
   - CSS
   - CST
   - DMA
   - DRAM
   - DSP
-  - ESPN
   - EST
+  - ETL
   - FAQ
-  - FBI
+  - FIFO
   - FILE
   - FIXME
   - GCC
   - GNU
   - GOV
+  - GPIO
   - GPS
   - HAL
-  - HIV
-  - HR
   - HTML
   - HTTP
   - HTTPS
@@ -55,25 +50,18 @@ exceptions:
   - JSON
   - LAN
   - LED
+  - MCAPI
   - MIPI
   - MIPS
   - MIT
   - MLA
   - MLB
   - MMU
-  - MTV
-  - NAACP
-  - NAACP
+  - MRAPI
+  - MSVC
+  - MTAPI
   - NASA
-  - NASA
-  - NATO
-  - NBA
-  - NBC
-  - NCAA
-  - NCAAB
-  - NCAAF
-  - NFL
-  - NHL
+  - NFC
   - NOT
   - NOTE
   - 'NULL'
@@ -86,11 +74,14 @@ exceptions:
   - POSIX
   - PPV
   - PST
+  - RAII
   - RAM
   - ROM
   - RPC
+  - RTTI
   - RTOS
   - SDK
+  - SFR
   - SGML
   - SPI
   - SRAM
@@ -98,13 +89,12 @@ exceptions:
   - STL
   - TBD
   - TDD
-  - TNT
   - TODO
   - UART
+  - USART
   - UML
   - URL
   - USA
   - USB
-  - USSR
+  - XMI
   - XML
-  - XXX
