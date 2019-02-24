@@ -76,6 +76,7 @@ exceptions:
   - PST
   - RAII
   - RAM
+  - RFID
   - ROM
   - RPC
   - RTTI
@@ -96,5 +97,6 @@ exceptions:
   - URL
   - USA
   - USB
+  - WIP
   - XMI
   - XML
