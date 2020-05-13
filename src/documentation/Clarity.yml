@@ -5,8 +5,8 @@ link: https://content-guide.18f.gov/plain-language/#words-to-avoid
 level: warning
 ignorecase: true
 swap:
-  (?:commit|pledge): >
-    Be more specific — we’re either doing something or we’re not.
+  pledge: >
+    Be more specific than 'pledge' — we’re either doing something or we’re not.
   advancing: Avoid using 'advancing.'
   agenda: Avoid using 'agenda' (unless you’re talking about a meeting).
   disincentivize: Avoid using 'disincentivize.'

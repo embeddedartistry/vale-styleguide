@@ -49,7 +49,9 @@ exceptions:
   - I2C
   - JSON
   - LAN
+  - LFS
   - LED
+  - LLC
   - MCAPI
   - MIPI
   - MIPS
